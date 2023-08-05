@@ -4,6 +4,7 @@
 }
 
 .background-image1 {
+    background-color: rgb(18, 18, 18);
     background: url(../img/3415007.jpg);
     background-size: 100vw 100vh;
 }

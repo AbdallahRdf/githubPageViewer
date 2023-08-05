@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background-image1 {
+    background: url(../img/3415007.jpg);
+    background-size: 100vw 100vh;
+}
+
+.background-image2 {
+    background: url(../img/wp3082255-github-wallpapers.jpg);
+    background-size: 100vw 100vh;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.384);
+    width: 100vw;
+    height: 100vh;
+}
+
+#form {
+    width: 30%;
+    position: absolute;
+    top: 44%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+}
+
+.glass-effect {
+    background-color: rgba(255, 255, 255, 0.19);
+    backdrop-filter: blur(1px);
+    /* This creates the glass effect with a blur */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    /* Optional: Add a soft glow effect */
+}
+
+.glass-effect2 {
+    background-color: rgba(0, 0, 0, 0.463);
+    /* This creates the glass effect with a blur */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    /* Optional: Add a soft glow effect */
+}
+
+.btn-orange {
+    background-color: #F09E1D !important;
+}
+
+.search {
+    outline: none;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.search:focus {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.submit {
+    outline: none;
+    border: none;
+    background-color: #e1e1e1;
+}
+
+.submit:hover {
+    background: #fff;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}

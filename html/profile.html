@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile Viewer | Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="background-image2">
+    <div class="overlay">
+        <form id="form" class="container position-absolute start-50 translate-middle w-50 d-flex" style="top: 5%;">
+            <div class="w-100">
+                <input id="username" type="text" class="w-100 p-2 rounded-start text-light search" placeholder="Enter a username" required>
+            </div>
+            <button id="btn" class=" submit px-3 d-block py-2 rounded-end">
+                <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+            </button>
+        </form>
+        
+        <div id="card" class="text-light glass-effect2 rounded border border-light mb-5 px-0 position-absolute start-50 translate-middle"
+            style="width: 60%; top:45%">
+            <a target="_blank" id="linkToProfile">
+                <i class="fa-solid fa-arrow-up-right-from-square fa-xl position-absolute"
+                    style="color: #f6f5f4; top: 5%; right:1%"></i>
+            </a>
+            <div class="d-flex">
+                <div class="align-self-center">
+                    <img class="m-4 rounded-circle border" id="profileImage" alt="GitHub profile image" style="width: 300px;">
+                </div>
+                <div class="mx-4 my-5">
+                    <h2 id="fullName"></h2>
+                    <h4 id="uname" class=""></h4>
+                    <p id="bio" class="w-100"></p>
+                    <a target="_blank" id="followers" class="btn btn-light"></a>
+                    <a target="_blank" id="following" class="btn btn-light"></a>
+                    <p id="location" class=" my-2"></p>
+                    <a id="blog" target="_blank" class="d-block text-decoration-none p-0 my-2 "></a>
+                    <a id="twitterAccount" target="_blank" class="d-block text-decoration-none p-0 my-2 "></a>
+                    <a id="repos" target="_blank" class="btn btn-light"></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="card404" class="text-light glass-effect2 rounded border border-light mb-5 position-absolute start-50 translate-middle"
+            style="width: 60%; top:45%">
+            <h2 id="h2" class="text-center pt-3" style="font-size: 6rem;">404</h2>
+            <h4 id="h4" class="text-center pb-4">USER NOT FOUND !</h4>
+        </div>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
+
+    <script src="../js/profile.js"></script>
+</body>
+</html>
